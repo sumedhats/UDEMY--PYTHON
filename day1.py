@@ -24,7 +24,9 @@ glass1 = "milk"
 glass2 = "juice"
 # solution
 glass1 = "juice"
-glass2 = "milk"print("Welcome to the Band Name Generator")
+glass2 = "milk"
+# write a program to execute the band name generator 
+print("Welcome to the Band Name Generator")
 a = input("what is the name of the city you grew up in? \n")
 b = input("what is the name of your pet? \n")
 print("Your band name could be " + a + " " + b)
