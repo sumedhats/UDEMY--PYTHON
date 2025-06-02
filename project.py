@@ -13,5 +13,37 @@ total_amount = total_bill + tip_amount
 amount_per_person = total_amount / people_count
 amount_per_person = round(amount_per_person, 2)
 print(f"Each person should pay: ${amount_per_person}")
- 
+# PROJECT 3
+ print('''888                                                          
+888                                                          
+888                                                          
+888888888d888 .d88b.  8888b. .d8888b 888  888888d888 .d88b.  
+888   888P"  d8P  Y8b    "88b88K     888  888888P"  d8P  Y8b 
+888   888    88888888.d888888"Y8888b.888  888888    88888888 
+Y88b. 888    Y8b.    888  888     X88Y88b 888888    Y8b.     
+ "Y888888     "Y8888 "Y888888 88888P' "Y88888888     "Y8888  ''')
+
+print("Welcome to the treasure land. Your mission is to find the treasure.")
+direction = input("You are at a crossroad. Where do you want to go? Type 'left' or 'right': ").lower()
+
+if direction == "left":
+    action = input("You chose left. Do you want to swim or wait? Type 'swim' or 'wait': ").lower()
+    if action == "wait":
+        door = input("Great! Now choose a door: red, blue, or yellow: ").lower()
+        if door == "red":
+            print("You got caught by a witch.")
+        elif door == "blue":
+            print("You won!")
+        elif door == "yellow":
+            print("You got caught by a wizard.")
+        else:
+            print("Invalid choice.")
+    elif action == "swim":
+        print("Better luck next time.")
+    else:
+        print("Invalid choice.")
+elif direction == "right":
+    print("Better luck next time.")
+else:
+    print("Invalid choice.")
 
