@@ -21,8 +21,6 @@ if height > 180:
    print("ur ticket is 12$")
  else:
     print("ur ticket is 7$")
-else:
- print("better luch next time")
  # case 4
 print("welcome to roller coaster")
 height = int(input("enter ur height"))
