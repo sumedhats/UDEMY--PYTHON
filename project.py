@@ -46,4 +46,23 @@ elif direction == "right":
     print("Better luck next time.")
 else:
     print("Invalid choice.")
+ # PROJECT 4
+import random 
+print("GAME")
+print("WELCOME TO ROCK PAPER SISSOR GAME")
+choose = input("Enter your choice rock, paper, scissor\n your choice : ")
+choices = ["rock", "paper", "scissor"]
+computer_choices = random.choice(choices)
+print("Computer chose:", computer_choices)
+if choose == computer_choices:
+    print("It's a tie!")
+elif (choose == "rock" and computer_choices == "scissor") or \
+     (choose == "paper" and computer_choices == "rock") or \
+     (choose == "scissor" and computer_choices == "paper"):
+    print("You win!")
+else:
+    print("You lose!")
+     
+
+
 
