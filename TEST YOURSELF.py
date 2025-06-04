@@ -449,6 +449,48 @@ friends.extend(["finn", "george"])
 print("Extended list:", friends)
 enemies = ["tom", "jerry", "spike"]  
 print("Random enemy:", random.choice(enemies))
+colors = ["red", "blue", "green", "yellow"]
+for color in colors:
+    print(color)
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit + " juice")
+marks = [23, 45, 67, 89, 12]
+print("Total marks:", sum(marks))
+scores = [10, 20, 30]
+total = 0
+for score in scores:
+    total += score
+print("Total score:", total)
+for i in range(1, 51):
+    if i % 4 == 0 and i % 6 == 0:
+        print("FizzBuzz")
+    elif i % 4 == 0:
+        print("Fizz")
+    elif i % 6 == 0:
+        print("Buzz")
+    else:
+        print(i)
+total = 0
+for num in range(1, 101):
+    total += num
+print("Sum from 1 to 100:", total)
+for num in range(1, 101):
+    print(num)
+for i in range(1, 6):
+    print(i)
+heights = [120, 135, 110, 160, 140]
+max_height = 0
+for height in heights:
+    if height > max_height:
+        max_height = height
+print("Tallest height:", max_height)
+scores = [10, 20, 30]
+total = 0
+for score in scores:
+    total += score
+print("Total score:", total)
+
 
     
  
