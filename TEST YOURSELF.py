@@ -420,6 +420,35 @@ if drink == "yes":
 print(f"Your total pizza order price is: ${price:.2f}")
 
 
+import random  
+number = random.randint(5, 15)  
+print("Generated number:", number)
+import random  
+random_fav = random.choice(["pizza", "burger", "pasta"])
+import trial  
+print("My favorite food is:", trial.random_fav)
+import random  
+float1 = random.random()  
+print("Random float between 0 and 1:", float1)
+
+float2 = random.uniform(10, 20)  
+print("Random float between 10 and 20:", float2)
+import random  
+coin = random.randint(0, 1)  
+if coin == 0:
+    print("You got HEADS")  
+else:
+    print("You got TAILS")
+friends = ["alex", "bella", "chris", "danny"]  
+print("First friend:", friends[0])  
+friends[0] = "andy"  
+print("Updated first friend:", friends[0])  
+friends.append("eve")  
+print("Added new friend:", friends)  
+friends.extend(["finn", "george"])  
+print("Extended list:", friends)
+enemies = ["tom", "jerry", "spike"]  
+print("Random enemy:", random.choice(enemies))
 
     
  
