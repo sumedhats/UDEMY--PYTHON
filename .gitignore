@@ -9,3 +9,10 @@ PYTHON-copy/
 __pycache__/
 .ipynb_checkpoints/
 PYTHON-copy/
+venv/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+.venv/
